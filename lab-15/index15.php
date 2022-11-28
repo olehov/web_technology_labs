@@ -58,18 +58,18 @@
             <br><br>
         </div>
         <div>
-            <form action="index15.php">
+            <form action="index15.php" method="post">
                 <label for="textLabel">Введіть своє ім'я</label><br>
                 <input type="text" id="text" name="text"><br>
                 <input type="submit" value="відправити">   
                 <input type="reset" value="скинути">
             </form>
-        </div>
-        <?php
+            <?php
             if($_POST['text']){
                 $name = $_POST['text'];
                 echo "<script>alert('Привіт $name')</script>";
             }
         ?>
+        </div>
     </body>
 </html>
