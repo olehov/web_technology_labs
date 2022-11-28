@@ -7,7 +7,7 @@
         <form action="/web_technology_labs/index.php">
             <input type="submit" value="home">
         </form>
-        <form action="/web_technology_labs/lab-15/lab_15.php">
+        <form action="/lab-15/lab_15.php">
             <input type="submit" value="Go to Lab 15"><br>
         </form>
         <div>
