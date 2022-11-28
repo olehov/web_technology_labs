@@ -66,7 +66,7 @@
             </form>
         </div>
         <?php
-            if($_POST['text'] !== null){
+            if($_POST['text']){
                 $name = $_POST['text'];
                 echo "<script>alert('Привіт $name')</script>";
             }
