@@ -4,7 +4,7 @@
         <title>Lab 15</title>
     </head>
     <body>
-        <form action="/web_technology_labs/index.php">
+        <form action="/index.php">
             <input type="submit" value="home">
         </form>
         <form action="/lab-15/lab_15.php">
