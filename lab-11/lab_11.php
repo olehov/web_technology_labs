@@ -8,9 +8,9 @@
             echo("File created 21/11/2022<br>");
             echo 'Today’s date is <b>' . date('d/m/Y') . '</b> and it’s a <b>'.date('l').'</b> today!';
         ?></h1>
-        <form action="index.php" method="post">
+        <form action="lab_11.php" method="post">
             <label for="money">Введіть значення від 1 до 999:</label><br>
-            <input type="text" name="money"><br>
+            <input type="text" name="money" min="1" max="999"><br>
             <button type="submit">Відправити</button>
             </script>
         </form>
