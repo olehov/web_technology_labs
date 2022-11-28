@@ -65,6 +65,11 @@
                 <input type="reset" value="скинути">
             </form>
         </div>
-        
+        <?php
+            if($_POST['text'] !== null){
+                $name = $_POST['text'];
+                echo "<script>alert('Привіт $name')</script>";
+            }
+        ?>
     </body>
 </html>
