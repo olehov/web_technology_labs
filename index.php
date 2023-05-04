@@ -18,7 +18,7 @@
         <form action="/lab-15/index15.php">
             <input type="submit" value="Go to Lab 15"><br>
         </form>
-        <form action="/lab-4/biography.html">
+        <form action="/lab-4/index.html">
             <input type="submit" value="Go to Lab 4"><br>
         </form>
     </body>
