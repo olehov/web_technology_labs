@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    max-width: 1100px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 0;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.253);
+  }
+body{
+    background-color: rgb(214, 208, 208);
+}
+.body-row{
+    display: flex;
+ 
+  padding: 5px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.colum1{
+    flex-direction: row;
+    
+}
+.textcols4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.textcols4-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 30%;
+    background: #fff2e1;
+}
+.textcols4-item + .textcols4-item {
+    margin-left: 5%;
+}
+.colum-reclama{
+    background-color: rgb(0, 255, 0);
+}

@@ -1,0 +1,134 @@
+
+.container {
+  width: 100%;
+  max-width: 1100px; /*максимальная ширина может иметь другое значение*/
+  padding: 0 0;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.253);
+}
+/* шапка */
+.row{
+  display: flex;
+}
+.colum-img{
+ 
+  width: 20%;
+  display: flex;
+  
+}
+.colum2{
+  width: 80%;
+  float:left;
+  
+}
+.col2-1{
+  height: 90%;
+  width: 80%;
+  float:left;
+  
+}
+.row1-2-menu{
+  width: 30%;
+  
+  display: flex;
+  float:right;
+ 
+  flex-basis: 400px;
+}
+.row1-1{
+  width: 100%;
+  
+  float:inline-start;
+}
+.col-nameuniver{
+  
+  width: 33%;
+  float:left
+}
+.col-logo-tntu{
+  
+  width: 33%;
+  float:left
+}
+.col-logo-fis{
+  
+  width: 34%;
+  float:left
+}
+.personal-info{
+  
+  width: 100%;
+  float:left
+}
+.col2-2-logo-kafedri{
+  width: 20%;
+  display: flex;
+  align-items:center;
+}
+
+/* тіло*/
+
+.body_row{
+  display: flex;
+  background: #9ba5b3;
+  padding: 5px;
+  
+  flex-direction: column;
+}
+
+.b-row1{
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background: #e0e4eb;
+  padding: 5px;
+}
+
+.row1_colum1{
+  flex-direction: column;
+  display: flex;
+  background: #e0e4eb;
+  padding: 5px;
+  
+}
+.biography{
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.group{
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.interesting-1{
+  flex-direction: row;
+  display: inline-flex;
+
+}
+
+.interesting-3{
+  flex-direction: row;
+  display: inline-flex;
+}
+
+.hobby{
+  flex-direction: row;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.row1_colum2{
+  
+  flex-direction: column;
+  background: #c5b805;
+  padding: 5px;
+}
+.b-row2{
+  flex-direction: row;
+  justify-content: space-between;
+  display: inline-flex;
+  background: #fafafa;
+  padding: 5px;
+}
